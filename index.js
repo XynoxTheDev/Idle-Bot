@@ -18,7 +18,7 @@ client.once('ready', () => {
 client.on('message', message => {
 
     if (message.content === 'dp!help') {
-        message.channel.send('The developers are working in the backend.');
+        message.channel.send('The developers are working in the backend for the current issue/maintenance. Stay tuned to the <https://discord.gg/ZzbZpdw> for updates related to the bot.');
     }
 
 });
