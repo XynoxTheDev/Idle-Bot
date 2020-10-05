@@ -11,7 +11,7 @@ client.once('ready', () => {
 
     // Set the client user's activity
     // Set the client user's status
-    client.user.setPresence({ game: { name: `dp!help | Xynox The Dev` }, status: 'idle' });
+    client.user.setPresence({ game: { name: 'dp!help | Xynox The Dev' }, status: 'idle' });
 
 });
 
