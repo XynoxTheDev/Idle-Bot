@@ -9,8 +9,8 @@ class Ready extends Listener {
     }
 
     exec() {
-        this.client.user.setActivity("dp!help | Xynox The Dev", { type: "WATCHING" });
-	console.log('${this.client.user.tag} is online!');
+        this.client.user.setActivity('dp!help | Xynox The Dev', { type: 'WATCHING' });
+	console.log(`${this.client.user.tag} is online!`);
     }
 }
 
