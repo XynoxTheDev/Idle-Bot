@@ -3,7 +3,10 @@ const { Command } = require('discord-akairo');
 class help extends Command {
     constructor() {
         super('help', {
-			
+            aliases: ['halp'],
+            clientPermissions: ['SEND_MESSAGES'],
+            userPermissions: ['SEND_MESSAGES']
+
         });
     }
 
